@@ -6,9 +6,24 @@
     background-color: rgb(251, 102, 102);
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
+.menus {
+    display: flex;
+    list-style: none;
+}
 .logo-photo {
-    width: 80px;
+    width: 60px;
+}
+.menu-item {
+    margin-right: 15px;
+    padding-right: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 22px;
+}
+.menu-item:hover {
+    border-bottom: 3px solid whitesmoke;
+    padding-left: 4px;
+    color: whitesmoke;
 }
