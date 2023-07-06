@@ -2,3 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+.menu-container {
+    background-color: rgb(251, 102, 102);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-photo {
+    width: 80px;
+}
