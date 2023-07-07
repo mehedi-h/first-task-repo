@@ -14,11 +14,11 @@
     list-style: none;
 }
 .logo-photo {
-    width: 60px;
+    width: 50px;
 }
 .menu-item {
-    margin-right: 15px;
-    padding-right: 5px;
+    margin-right: 20px;
+    padding-right: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 22px;
 }
@@ -26,4 +26,22 @@
     border-bottom: 3px solid whitesmoke;
     padding-left: 4px;
     color: whitesmoke;
+    cursor: pointer;
+}
+.body-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.coffee-img {
+    height: 400px;
+    width: 350px;
+}
+.grean-tea-img {
+    height: 400px;
+    width: 350px;
+}
+.black-tea-img {
+    height: 400px;
+    width: 350px;
 }
